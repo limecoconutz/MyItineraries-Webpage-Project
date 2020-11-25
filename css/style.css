@@ -1,7 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
-@import url("components/banner.css")
+@import url("components/banner.css");
 
-/*font-family: 'Crimson Pro', serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Crimson Pro', serif; -main text
+font-family: 'Playfair Display', serif; - title
+font-family: 'Raleway', sans-serif; -subtitles*/
 
+/*Colors and fonts*/
+body{
+    background: #15132C;
+     font-family:  'Crimson Pro', serif;
+  }
+
+  h1 {
+      font-family: 'Playfair Display', serif;
+      color: #F1FAEE;
+      font-size: larger;
+      font-weight: bolder;
+  }
+
+  .banner p{
+    font-family: 'Playfair Display', serif;
+    color: #F1FAEE;
+    opacity: 0.6;
+  } 
