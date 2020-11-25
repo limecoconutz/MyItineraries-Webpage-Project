@@ -1,0 +1,13 @@
+.btn-treehouse {
+    color: #C8E0F4;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .btn-treehouse:hover {
+    color: #6DB1BF;
+    text-decoration-line: none;
+    opacity: 1;
+    text-decoration: none;
+  }
