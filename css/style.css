@@ -24,3 +24,9 @@ body{
     opacity: 0.6;
   } 
 
+  .card-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+  }
+
