@@ -17,6 +17,10 @@
       right: 10px;
   }
 
+  .card:hover{
+    box-shadow: 3px 3px 3px 3px #9498b4;
+  }
+
 
   /*Pics for the cards*/
   #Finnish-Lapland {

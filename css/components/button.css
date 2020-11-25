@@ -1,12 +1,15 @@
-.btn-treehouse {
+.btn {
     color: #C8E0F4;
     padding: 10px 15px;
     border-radius: 4px;
+    border:  #C8E0F4;
+    background-color: transparent;
     font-weight: bold;
   }
   
-  .btn-treehouse:hover {
+  .btn:hover {
     color: #6DB1BF;
+    background-color: transparent;
     text-decoration-line: none;
     opacity: 1;
     text-decoration: none;
