@@ -1,0 +1,11 @@
+.dropdown-menu {
+    box-shadow: none;
+    position: relative;
+    width: 5px !important;
+    min-width: 50px !important;
+    background-color: #DFE3EC;
+  }
+  
+  .fa, .fas {
+    color: #9B6F73;
+  }

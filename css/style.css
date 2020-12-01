@@ -3,6 +3,8 @@
 @import url("components/banner.css");
 @import url("components/card.css");
 @import url("components/button.css");
+@import url("components/dropdown.css");
+@import url("components/tabs.css");
 
 /*font-family: 'Crimson Pro', serif; -main text
 font-family: 'Playfair Display', serif; - title
@@ -14,16 +16,18 @@ body{
      font-family:  'Crimson Pro', serif;
   }
 
-  h1 {
+  h1 h2{
       font-family: 'Playfair Display', serif;
       color: #C8E0F4;
       font-size: larger;
       font-weight: bolder;
+      letter-spacing: 5px;
   }
 
-  .banner p{
-    font-family: 'Playfair Display', serif;
+ h3 {
+    font-family: 'Raleway', sans-serif;;
     color: #C8E0F4;
+    font-size: large;
     opacity: 0.8;
   } 
 
@@ -34,3 +38,8 @@ body{
     color: #C8E0F4;
   }
 
+ #test{
+  max-width: 100%;
+   max-height: 100%;
+ }
+ 
