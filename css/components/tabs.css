@@ -1,18 +1,18 @@
 .tabs {
     background: #CCD2DE;
-    color: #0B7189;
+    color: #06414e;
     display: flex;
     padding: 10px 10px 0 10px
   }
   
   .tabs h3 {
     font-size: 17px;
-    color: #0C1618;
+    color: #345f68;
     font-weight: bold;
   }
   
   .tabs p {
-    opacity: 0.5;
+    opacity: 0.9;
   }
   
   .tabs-item {
