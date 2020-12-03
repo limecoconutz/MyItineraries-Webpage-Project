@@ -1,2 +1,32 @@
 /*@import url("imageStyling.css");*/
 
+.itinerary{
+    width: 80%;
+    margin: 25px;
+}
+.activity-card{
+    display: flex;
+}
+.card-image{
+    width: 30%;
+    border: 5px solid;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.details-card{
+    align-content: flex-end;
+    order: 2;
+    margin: 15px;
+}
+
+footer{
+   font-size: xx-large;
+}
+
+
+
