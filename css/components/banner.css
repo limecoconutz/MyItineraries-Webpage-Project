@@ -24,3 +24,8 @@
     top: 350px;
   }
 
+  #finnish-lapland-banner{
+    background-image: url("../Images/FinnishLaplandImg/Ivalo.jpg");
+    background: linear-gradient(135deg, rgba(158, 148, 168, 0.233) 1%, rgba(24, 24, 98, 0.5) 10%), url("/Images/FinnishLaplandImg/NorthernLights.jpg");
+    background-size: cover;
+  }
