@@ -6,12 +6,12 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 2px 2px 3px #7C809B;
+    box-shadow: 1px 1px 2px #9b9fbd;
     margin: 20px;
   }
 
   .banner h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: bolder;
     position: relative;
   }
@@ -25,7 +25,21 @@
   }
 
   #finnish-lapland-banner{
-    background-image: url("../Images/FinnishLaplandImg/Ivalo.jpg");
     background: linear-gradient(135deg, rgba(158, 148, 168, 0.233) 1%, rgba(24, 24, 98, 0.5) 10%), url("/Images/FinnishLaplandImg/NorthernLights.jpg");
+    background-size: cover;
+  }
+
+  #norway-banner{
+    background: linear-gradient(135deg, rgba(158, 148, 168, 0.233) 1%, rgba(24, 24, 98, 0.5) 10%), url("/Images/NorwayImg/Norway1.jpg");
+    background-size: cover;
+  }
+
+  #sweden-banner{
+    background: linear-gradient(135deg, rgba(158, 148, 168, 0.233) 1%, rgba(24, 24, 98, 0.5) 10%), url("/Images/SwedenLapland/chad_abisko_hero_CBlakely1.jpg");
+    background-size: cover;
+  }
+
+  #japan-banner{
+    background-image: url("/Images/JapanImg/2.jpg");
     background-size: cover;
   }

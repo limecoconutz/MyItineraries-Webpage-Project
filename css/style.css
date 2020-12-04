@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,600;1,700&display=swap" rel="stylesheet">');
 
 @import url("components/banner.css");
 @import url("components/button.css");
@@ -9,14 +10,46 @@
 font-family: 'Playfair Display', serif; - title
 font-family: 'Raleway', sans-serif; -subtitles*/
 
+/*font-family: 'Castoro', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Source Serif Pro', serif;*/
+
+
 /*Colors and fonts*/
+html, body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body{
-    background: #CCD2DE;
-     font-family:  'Crimson Pro', serif;
+    background: #eef3ff;
+     font-family:  'Crimson Text', serif;
   }
 
+  main{
+    background: #d5e2f0;
+    margin: 15px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+  }
+
+  footer ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+  }
+
+.footer-icon{
+  font-size: 35px;
+  margin: 10px;
+  padding: 5px;
+}
+
+
   h1 h2{
-      font-family: 'Playfair Display', serif;
+      font-family: 'Source Serif Pro', serif;
       color: #C8E0F4;
       font-size: larger;
       font-weight: bolder;
@@ -24,14 +57,19 @@ body{
   }
 
  h3 {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Source Serif Pro', serif;
     color: #C8E0F4;
     font-size: large;
     opacity: 0.8;
   } 
 
+  p{
+    font-family:  'Source Serif Pro', serif
+    color: #0C1618;
+  }
+
   .card-title {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Serif Pro', serif
     font-size: 20px;
     font-weight: bolder;
     color: #C8E0F4;
@@ -42,9 +80,29 @@ body{
    max-height: 100%;
  }
 
-.itinerary{
-  background-color: #0B7189;
-  border-radius: 15px;
-  display: block;
-}
+ /*individual itineraries styling*/
+ .description h4{
+  display: flex;
+   margin: 15px;
+   color: #0C1618;
+   font-family:  'Source Serif Pro', serif
+   line-height: 1.5;
+   word-spacing: 2px;
+   font-size: 20px;
+   font-weight: lighter;
+   text-indent: 50px;
+ }
+
+ #icons{
+   display: inline;
+  justify-content: space-around;
+  position: relative;
+  left: 1029px;
+  padding: 15px;
+  margin: 5px;
+  font-size: 25px;
+  letter-spacing: 3px;
+ }
+
+ 
 
