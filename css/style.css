@@ -64,12 +64,12 @@ body{
   } 
 
   p{
-    font-family:  'Source Serif Pro', serif
+    font-family:  'Source Serif Pro', serif;
     color: #0C1618;
   }
 
   .card-title {
-    font-family: 'Source Serif Pro', serif
+    font-family: 'Source Serif Pro', serif;
     font-size: 20px;
     font-weight: bolder;
     color: #C8E0F4;
@@ -85,7 +85,7 @@ body{
   display: flex;
    margin: 15px;
    color: #0C1618;
-   font-family:  'Source Serif Pro', serif
+   font-family:  'Source Serif Pro', serif;
    line-height: 1.5;
    word-spacing: 2px;
    font-size: 20px;

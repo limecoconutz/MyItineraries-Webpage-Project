@@ -2,129 +2,169 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Amalfi trip </title>
+    <title>Cosmina's Itineraries - Amalfi trip </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/405e6f304c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/components/itinerary-card.css" />
 </head>
 
 <body>
-            <h3><a href="../index.html">Home</a></h3>
-            <h1>Italy, Amalfi Coast Itinerary </h1>
-     
-        <section id="outline">
-            
-                <header>
-                    <h1>Trip Outline</h1>
-                </header>
-                <br><br><br>
-                
-            <div class="container">
-                <table>
-                  <thead>
-                      <tr>
-                        <th colspan="2">
-                          <h1>Schedule</h1>
-                        </th>
-                      </tr>
-              
-                      <tr>
-                        <th>
-                          <h2>Date</h2>
-                        </th>
-                        <th>
-                            <h2>Description</h2>
-                        </th>
-                       </tr>
-                    </thead>
-                  <tbody>
-                      <tr>
-                        <td class="left"> <h3><a href="#day01">20 March</a></h3></td>
-                        <td><h3> Land in Napoli<br>Drive to Nerano and check-in<br>Overnight at Villa Olimpia</h3></td>
-                      </tr>
-                      <tr>
-                        <td class="left"><h3><a href="#day02">21 March</a></h3></td>
-                        <td><h3>Fullday in Nerano<br>Hike to Baia di Ieranto<br>Overnight at Villa Olimpia</h3></td>
-                        </tr>
-                      <tr>
-                        <td class="left"><h3><a href="#day03">22 March</a></h3></td>
-                        <td><h3>Amalfi Coast fullday drive including Positano, Vietri sul Mare and Salerno<br>Overnight at Villa Olimpia</h3></td>
-                        </tr>
-                      <tr>
-                        <td class="left"><h3><a href="#day04">23 March</a></h3></td>
-                        <td><h3>Fullday excursion to Sorrento<br>Overnight at Villa Olimpia</h3></td>
-                      </tr>
-                      <tr>
-                        <td class="left"><h3><a href="#day05">24 March</a></h3></td>
-                        <td><h3>Pompeii Archaeological Park and Museum<br>Overnight at Villa Olimpia</h3></td>
-                       </tr>
-                       <tr>
-                        <td class="left"><h3><a href="#day06">25 March</a></h3></td>
-                        <td><h3>Fullday excursion to Napoli<br>Overnight at Villa Olimpia</h3></td>
-                       </tr>
-                       <tr>
-                        <td class="left"><h3><a href="#day07">26 March</a></h3></td>
-                        <td><h3>Flight home from Napoli</h3></td>
-                       </tr>
-                  </tbody>
-                </table>
+v<header>
+  <div class="tabs">
+    <div class="tabs-item">
+      <h3><a href="../index.html">Home</a></h3>
+    </div>
+    <div class="tabs-item">
+      <h3><a href="/">Finnish Lapland</a></h3>
+    </div>
+    <div class="tabs-item">
+      <h3><a href="Norway.html">Norway</a></h3>
+    </div>
+    <div class="tabs-item">
+      <h3><a href="Japan.html">Japan</a></h3>
+    </div>
+    <div class="tabs-item">
+      <h3><a href="SwedishLapland.html">Swedish Lapland</a></h3>
+    </div>
+    <div class="tabs-item active">
+      <h3><a href="Amalfi.html">Amalfi Coast</a></h3>
+    </div>
+  </div>
+
+  <div class="banner" id="amalfi-coast-banner">
+    <h1>Amalfi Coast Itinerary </h1>
+    <h2><br>A sunny week on the Mediterannean coast</h2>
+  </div>
+  <div class="container">
+    <div class="description ">
+      <h4 id="text">This itinerary will take you driving on some of the most spectacular roads in Europe, lounging on sunny beaches, sipping amazing limoncello, and learning how to relax, the Italian way. </h4>
+      <div id="icons">
+        <a href="/"><i class="fas fa-envelope"></i></a>
+        <a href="/"><i class="fas fa-crow"></i></a>
+        <a href="/"><i class="fas fa-dragon"></i></a>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <h2 class="itinerary-title">Discover the day-by-day itinerary, created just for you: </h2>
+  <div class="container-fluid">
+    <div class="row">
+      <!--Day 01-->
+      <section class="itinerary col-xs-12" id="amalfi-card">
+        <div class="activity-card">
+          <div class="details-card">
+            <div class="title-wrapper">
+              <h2> Day 01 - Land in Napoli, drive to Nerano and check-in</h2>
+            </div>
+            <div class="content-short">
+              <h3>After an morning flight, get the trip started with a quick drive from Napoli airport to the start-point of your journey in Nerano</h3>
+            </div>
+            <footer class="accesibility">
+              <i class="fas fa-american-sign-language-interpreting"></i>
+              <i class="fab fa-accessible-icon"></i>
+              <i class="fas fa-award"></i>
+            </footer>
+          </div>
+          <div class="card-image col-xs-12"><img src="../Images/AmalfiImg/2.jpg" alt=" "></div>
+        </div>
+      </section>
+      <!--Day 02-->
+      <section class="itinerary col-xs-12" id="amalfi-card">
+        <div class="activity-card">
+          <div class="details-card">
+            <div class="title-wrapper">
+              <h2> Day 02 - Fullday Nerano</h2>
+            </div>
+            <div class="content-short">
+              <h3>Get ready for a relaxing day! We will be walking around town, and hiking to Baia di Ieranto. Then, in the afternoon, we will take a boat tour and do some limoncello tasting!</h3>
+            </div>
+            <footer class="accesibility">
+              <i class="fas fa-american-sign-language-interpreting"></i>
+              <i class="fab fa-accessible-icon"></i>
+              <i class="fas fa-award"></i>
+            </footer>
+          </div>
+          <div class="card-image col-xs-12"><img src="../Images/AmalfiImg/3.jpg" alt=" "></div>
+        </div>
+      </section>
+      <!--Day 03-->
+      <section class="itinerary col-xs-12" id="amalfi-card">
+        <div class="activity-card">
+          <div class="details-card">
+            <div class="title-wrapper">
+              <h2> Day 03 - Amalfi Coast fullday drive including Positano, Vietri sul Mare and Salerno</h2>
+            </div>
+            <div class="content-short">
+              <h3>Drive all the way up to Salerno, with stops along the way in Positano and Vietri sul Mare. Lunch will be midway, in Amalfi. We will end the day with a relaxing dinner in Salerno.</h3>
+            </div>
+            <footer class="accesibility">
+              <i class="fas fa-american-sign-language-interpreting"></i>
+              <i class="fab fa-accessible-icon"></i>
+              <i class="fas fa-award"></i>
+            </footer>
+          </div>
+          <div class="card-image col-xs-12"><img src="../Images/AmalfiImg/1.jpg" "></div>
+            </div>
+    </section>
+    <!--Day 04-->
+    <section class=" itinerary col-xs-12" id="amalfi-card">
+            <div class="activity-card">
+              <div class="details-card">
+                <div class="title-wrapper">
+                  <h2> Day 04 - Pompeii Archaeological Park and Museum. </h2>
                 </div>
-        </section>
+                <div class="content-short">
+                  <h3>Today, we take the time to see the fabulous Pompeii and learn about the Roman way of life. We will take the full day to see the park and the museum.</h3>
+                </div>
+                <footer class="accesibility">
+                  <i class="fas fa-american-sign-language-interpreting"></i>
+                  <i class="fab fa-accessible-icon"></i>
+                  <i class="fas fa-award"></i>
+                </footer>
+              </div>
+              <div class="card-image col-xs-12"><img src="../Images/AmalfiImg/7.jpg" alt=" "></div>
+            </div>
+      </section>
+      <!--Day 05-->
+      <section class="itinerary col-xs-12" id="amalfi-card">
+        <div class="activity-card">
+          <div class="details-card">
+            <div class="title-wrapper">
+              <h2> Day 05 - Fullday excursion to Napoli</h2>
+            </div>
+            <div class="content-short">
+              <h3>We will drive in the morning to Napoli, then take the entire day to explore the streets, culture and fabulous food.Then, we overnight here and prepare for our flight back home in the morning.</h3>
+            </div>
+            <footer class="accesibility">
+              <i class="fas fa-american-sign-language-interpreting"></i>
+              <i class="fab fa-accessible-icon"></i>
+              <i class="fas fa-award"></i>
+            </footer>
+          </div>
+          <div class="card-image col-xs-12"><img src="../Images/AmalfiImg/4.jpg" alt=" "></div>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
 
-        <section id="day01">
-            <header>
-                <h1>Day 01 - </h1>
-     
-        <p class="center">
-        </p>
-            </header>
-        </section>
-
-        <section id="day02">
-            <header>
-                <h1>Day 02 - </h1>
-            <p class="center">
-
-            </p>
-            <p class="center">
-
-         </p>
-        </header>
-        </section>
-
-        <section id="day03">
-            <header>
-                <h1>Day 03 - </h1>
-            <p class="center">
-               
-            </p>
-        </header>
-        </section>
-
-        <section id="day04">
-            <header>
-                <h1>Day 04 - </h1>
-            <p class="center">
-                
-            </p>
-        </header>
-        </section>
-
-        <section id="day05">
-            <header>
-                <h1>Day 05 - </h1>
-            <p class="center">
-                
-            </p>
-        </header>
-        </section>
-    </main>
-</body>
-<h6>  &copy; travelswithmina 2020</h6>
-</head>
 <footer>
-    <h3><a href="../index.html">Home</a></h3>
-    <h3><a href="https://media.giphy.com/media/JQotslsBDTIjfq5ncb/giphy.gif">Privacy Policy</a></h3>
-  </footer>
-
+  <ul>
+    <li><a href="https://giphy.com/gifs/H6bpouTIgqRYn8xzyz/html5" target="_blank"><i
+          class="fab fa-old-republic footer-icon"></i></a></li>
+    <li><a href="https://giphy.com/gifs/JQotslsBDTIjfq5ncb/html5" target="_blank"><i
+          class="fab fa-tripadvisor footer-icon"></i></a></li>
+    <li><a href="https://giphy.com/gifs/IcifS1qG3YFlS/html5" target="_blank"><i
+          class="fas fa-umbrella-beach footer-icon"></i></a></li>
+    <li><a href="https://giphy.com/gifs/WpIjh42KPontoNSF0J/html5" target="_blank"><i
+          class="fas fa-dove footer-icon"></i></a></li>
+    <li><a href="https://giphy.com/gifs/eJvdRYVHfW09tqD8iS/html5" target="_blank"><i
+          class="fab fa-earlybirds footer-icon"></i></a></li>
+    <li><a href="https://giphy.com/gifs/iFhVB5AULvMQpTg3CJ/html5" target="_blank"><i
+          class="fab fa-gitkraken footer-icon"></i></a></li>
+  </ul>
+</footer>
+<p>&copy; travelswithmina 2020</p>
 </html>
