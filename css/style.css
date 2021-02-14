@@ -104,5 +104,7 @@ body{
   letter-spacing: 3px;
  }
 
- 
+ #shadowed-h2{
+   opacity: 1;
+ }
 

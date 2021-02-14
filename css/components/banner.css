@@ -27,21 +27,21 @@
   }
 
   #finnish-lapland-banner{
-    background: linear-gradient(135deg, rgba(158, 148, 168, 0.233) 1%, rgba(24, 24, 98, 0.5) 10%), url("/Images/FinnishLaplandImg/NorthernLights.jpg");
     background-size: cover;
   }
 
   #norway-banner{
-    background: linear-gradient(135deg, rgba(158, 148, 168, 0.233) 1%, rgba(24, 24, 98, 0.5) 10%), url("/Images/NorwayImg/Norway1.jpg");
     background-size: cover;
   }
 
   #sweden-banner{
-    background: linear-gradient(135deg, rgba(158, 148, 168, 0.233) 1%, rgba(24, 24, 98, 0.5) 10%), url("/Images/SwedenLapland/chad_abisko_hero_CBlakely1.jpg");
     background-size: cover;
   }
 
   #japan-banner{
-    background-image: url("/Images/JapanImg/2.jpg");
     background-size: cover;
+  }
+
+  #amalfi-coast-banner{
+    background-size: center;
   }
